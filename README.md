@@ -1,3 +1,6 @@
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
+
 # Mood Tracker – Electron Desktop App
 
 A simple mood and reflection tracker built as a personal project to learn and practice programming, UI design, and app packaging with Electron.
