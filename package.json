@@ -1,0 +1,17 @@
+{
+  "name": "mood-tracker-electron",
+  "version": "1.0.0",
+  "description": "A desktop version of my mood and reflection tracker",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . MoodTracker --platform=darwin --arch=arm64 --icon=icon.icns --overwrite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^22.0.0",
+    "electron-packager": "^17.1.1"
+  }
+}

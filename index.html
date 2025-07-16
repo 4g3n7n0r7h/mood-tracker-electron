@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mood & Reflection Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <h1>Mood & Reflection Tracker</h1>
+
+    <!-- 🌙 Dark Mode Toggle -->
+    <label class="toggle-container">
+      <input type="checkbox" id="darkModeToggle" />
+      <span>🌙 Dark Mode</span>
+    </label>
+
+    <!-- Mood Input -->
+    <label for="mood">How are you feeling?</label>
+    <select id="mood">
+      <option value="🙂">Happy</option>
+      <option value="😐">Neutral</option>
+      <option value="😢">Sad</option>
+      <option value="😠">Angry</option>
+      <option value="😴">Tired</option>
+      <option value="😌">Peaceful</option>
+      <option value="😰">Anxious</option>
+    </select>
+
+    <!-- Reflection Input -->
+    <label for="reflection">Write a short reflection:</label>
+    <textarea id="reflection" rows="4" placeholder="Write what's on your mind..."></textarea>
+
+    <button id="saveBtn">Save</button>
+
+    <h2>Your Logs</h2>
+    <ul id="logList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
